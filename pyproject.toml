@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dashboards-com-dash"
+version = "0.1.0"
+description = ""
+authors = ["Erick-Bryan-Cubas <thecubas@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+
+[tool.poetry.group.dev.dependencies]
+dash = "^2.18.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
